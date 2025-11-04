@@ -1,0 +1,12 @@
+:root{
+  --bg:#0b0f14; --fg:#e6eef8; --muted:#9aa9b7;
+}
+[data-theme='light']{
+  --bg:#ffffff; --fg:#0b1220; --muted:#556374;
+}
+body{background:var(--bg); color:var(--fg); font-family: Inter, system-ui, sans-serif; margin:0; padding:0;}
+.container{max-width:1100px; margin:0 auto; padding:24px;}
+.button{background:#2b7cff;color:#fff;padding:8px 12px;border-radius:8px;text-decoration:none;display:inline-block;}
+.card{background:rgba(255,255,255,0.03); padding:16px; border-radius:10px; margin-bottom:12px;}
+.header{display:flex;align-items:center;justify-content:space-between;padding:12px;border-bottom:1px solid rgba(255,255,255,0.03)}
+.lang-toggle, .theme-toggle {margin-left:8px}
